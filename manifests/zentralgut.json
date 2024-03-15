@@ -1,0 +1,246 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://krauerphil.github.io/CAS IIIF 2024/manifests/zentralgut.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Karte Zugersee und Bergpanorama]",
+  "attribution" : "Goobi viewer",
+  "license" : "iiif_license",
+  "logo" : {
+    "@id" : "https://zentralgut.ch/resources/themes/lzg/images/dfgviewer_intranda.jpg",
+    "@type" : "dcTypes:Image"
+  },
+  "thumbnail" : {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg/full/!400,400/0/default.jpg",
+    "@type" : "dcTypes:Image",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "metadata" : [ {
+    "label" : "Permanente ID",
+    "value" : "ark:/63274/bz1c76n"
+  }, {
+    "label" : "Geographikum",
+    "value" : "Innerschweiz"
+  }, {
+    "label" : "Institution",
+    "value" : "Bibliothek Zug"
+  }, {
+    "label" : "Vorgangs-ID",
+    "value" : "9728"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Dokumenttyp"
+    }, {
+      "@language" : "en",
+      "@value" : "Document type"
+    } ],
+    "value" : "Ansichtskarten"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Titel"
+    }, {
+      "@language" : "en",
+      "@value" : "Title"
+    } ],
+    "value" : "[Karte Zugersee und Bergpanorama]"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Zugriffsbeschränkung (URL)"
+    }, {
+      "@language" : "en",
+      "@value" : "Access restriction (URL)"
+    } ],
+    "value" : "https://www.bibliothekzug.ch/"
+  }, {
+    "label" : "Institution Website",
+    "value" : "https://www.bibliothekzug.ch/"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Erscheinungsdatum"
+    }, {
+      "@language" : "en",
+      "@value" : "Publication year"
+    } ],
+    "value" : "1890-1920"
+  }, {
+    "label" : "Institution Kontakt",
+    "value" : "mailto:bibliothek@stadtzug.ch"
+  }, {
+    "label" : "Copyright",
+    "value" : "Bibliothek Zug"
+  }, {
+    "label" : "Lizenz",
+    "value" : "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Signatur"
+    }, {
+      "@language" : "en",
+      "@value" : "Shelfmark"
+    } ],
+    "value" : "TBild_P_01602"
+  }, {
+    "label" : "Geographikum",
+    "value" : "Zentralschweiz; Fünf Orte"
+  }, {
+    "label" : "Ortsbezug",
+    "value" : "Innerschweiz"
+  }, {
+    "label" : "URL",
+    "value" : "https://zentralgut.ch/ppnresolver?id=BibZug_TD_22_01602"
+  }, {
+    "label" : "Lizenz",
+    "value" : "https://creativecommons.org/publicdomain/zero/1.0/"
+  }, {
+    "label" : "Lizenz",
+    "value" : "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  }, {
+    "label" : [ {
+      "@language" : "de",
+      "@value" : "Verlag"
+    }, {
+      "@language" : "en",
+      "@value" : "Publisher"
+    } ],
+    "value" : "Edition Photoglob Co., Zürich"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/manifest/search/",
+    "profile" : "http://iiif.io/api/search/1/search",
+    "@type" : "SearchService1",
+    "service" : [ {
+      "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/manifest/autocomplete/",
+      "profile" : "http://iiif.io/api/search/1/autocomplete",
+      "@type" : "AutoCompleteService1"
+    } ]
+  },
+  "seeAlso" : {
+    "@id" : "https://zentralgut.ch/metsresolver?id=BibZug_TD_22_01602",
+    "label" : "METS/MODS",
+    "format" : "text/xml"
+  },
+  "sequences" : [ {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/sequence/base/",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "within" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/manifest/",
+    "canvases" : [ {
+      "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/1/canvas/",
+      "@type" : "sc:Canvas",
+      "label" : " - ",
+      "thumbnail" : {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg/full/!400,400/0/default.jpg",
+        "@type" : "dcTypes:Image"
+      },
+      "within" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/sequence/base/",
+      "width" : 4966,
+      "height" : 3234,
+      "images" : [ {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/1/canvas/image/1/",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg/full/!400,400/0/default.jpg",
+          "@type" : "dcTypes:Image",
+          "width" : 4966,
+          "height" : 3234,
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/1/canvas/"
+      } ],
+      "rendering" : [ {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_1.jpg/full.pdf",
+        "@type" : "dcTypes:Image",
+        "label" : "PDF",
+        "format" : "application/pdf"
+      }, {
+        "@id" : "https://zentralgut.ch/image/BibZug_TD_22_01602/1/",
+        "@type" : "dcTypes:InteractiveResource",
+        "label" : "Goobi viewer",
+        "format" : "text/html"
+      } ]
+    }, {
+      "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/2/canvas/",
+      "@type" : "sc:Canvas",
+      "label" : " - ",
+      "thumbnail" : {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_2.jpg/full/!400,400/0/default.jpg",
+        "@type" : "dcTypes:Image"
+      },
+      "within" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/sequence/base/",
+      "width" : 4966,
+      "height" : 3234,
+      "images" : [ {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/2/canvas/image/1/",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_2.jpg/full/!400,400/0/default.jpg",
+          "@type" : "dcTypes:Image",
+          "width" : 4966,
+          "height" : 3234,
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_2.jpg",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pages/2/canvas/"
+      } ],
+      "rendering" : [ {
+        "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/files/images/TD_22_01602_2.jpg/full.pdf",
+        "@type" : "dcTypes:Image",
+        "label" : "PDF",
+        "format" : "application/pdf"
+      }, {
+        "@id" : "https://zentralgut.ch/image/BibZug_TD_22_01602/2/",
+        "@type" : "dcTypes:InteractiveResource",
+        "label" : "Goobi viewer",
+        "format" : "text/html"
+      } ]
+    } ],
+    "viewingDirection" : "left-to-right"
+  } ],
+  "structures" : [ {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/sections/LOG_0000/range/",
+    "@type" : "sc:Range",
+    "label" : "CONTENT",
+    "viewingHint" : "top"
+  } ],
+  "rendering" : [ {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/pdf/",
+    "@type" : "dcTypes:Image",
+    "label" : "PDF",
+    "format" : "application/pdf"
+  }, {
+    "@id" : "https://zentralgut.ch/image/BibZug_TD_22_01602/",
+    "@type" : "dcTypes:InteractiveResource",
+    "label" : "Goobi viewer",
+    "format" : "text/html"
+  }, {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/plaintext/",
+    "@type" : "dcTypes:Text",
+    "label" : "Fulltext",
+    "format" : "text/plain"
+  }, {
+    "@id" : "https://zentralgut.ch/api/v1/records/BibZug_TD_22_01602/alto/",
+    "@type" : "dcTypes:Text",
+    "label" : "ALTO",
+    "format" : "text/xml"
+  } ]
+}
